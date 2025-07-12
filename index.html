@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com Gemini AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Chat com Gemini AI</h1>
+
+        <div id="chat-box"></div>
+
+        <div class="input-container">
+            <div class="file-input-container">
+                <input type="file" id="image-input" accept="image/*" style="display: none;">
+                <label for="image-input" style="cursor: pointer; padding: 8px; border-radius: 50%;">
+                    <i>📷</i>
+                </label>
+                <div id="image-indicator">
+                    <span id="file-name"></span>
+                </div>
+            </div>
+
+            <div class="input-row">
+                <input type="text" id="text-input" placeholder="Digite sua mensagem...">
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
